@@ -1,7 +1,9 @@
+import java.text.NumberFormat;
 import java.util.Scanner;
 import javax.swing.JFormattedTextField;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.text.NumberFormatter;
 
 public class Numberguesser {
     int chosennumber, guess, trys;
@@ -17,7 +19,6 @@ public class Numberguesser {
         input();
     }
 
-    /*
     public void gui() {
         NumberFormat format = NumberFormat.getInstance();
         format.setGroupingUsed(false);
@@ -41,7 +42,6 @@ public class Numberguesser {
         frame.add(field);
         frame.add(label);
     }
-     */
 
     public void input() {
         // label.setText("Bitte gib eine Zahl ein>> ");
